@@ -2640,7 +2640,7 @@ class Sabaki extends EventEmitter {
       },
       {type: 'separator'},
       {
-        label: t('Show Co&mments'),
+        label: t('Toggle Show Comments'),
         click: () => {
           setting.toggle('view.show_comments')
           this.setState(({showCommentBox}) => ({
@@ -2650,7 +2650,7 @@ class Sabaki extends EventEmitter {
       },
       {type: 'separator'},
       {
-        label: 'Annotate',
+        label: t('Annotate'),
         submenu: commentMenu
       }
     ]
