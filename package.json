@@ -91,7 +91,7 @@
     "@sabaki/deadstones": "^2.1.2",
     "@sabaki/go-board": "^1.4.1",
     "@sabaki/gtp": "^3.0.0",
-    "@sabaki/i18n": "0.51.1-1",
+    "@sabaki/i18n": "git+https://git@github.com/RobertChrist/sabaki-i18n.git",
     "@sabaki/immutable-gametree": "^1.9.4",
     "@sabaki/influence": "^1.2.2",
     "@sabaki/sgf": "^3.4.7",
