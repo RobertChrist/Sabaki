@@ -1,3 +1,27 @@
+# Welcome to Robert Christ's fork of Sabaki
+
+This fork contains several new features that the parent Sabaki repository have not yet merged, and are still pending review.
+
+- **New Feature: Game Tree Annotations Options**
+  - Summary: Allows users to bookmark, hotspot, change color and leave comments on nodes in the gametree menu by right clicking.
+  - Parent Repository Github Tracking Issue: https://github.com/SabakiHQ/Sabaki/issues/940  
+  - Local Stand-Alone Branch Name: feature/940_SupportGameTreeOptions
+  - Open PR Into Parent Repository: https://github.com/SabakiHQ/Sabaki/pull/942
+ 
+- **New Feature: Internationalization Support for Game Tree Annotations Options**
+  - Summary: This repository uses Robert Christ's fork of Sabaki's il8n repository, in order to add English, Spanish, French, and both traditional and simplified Chinese support for "Game Tree Annotations Options" feature.
+  - Parent Repository Github Tracking Issue: https://github.com/SabakiHQ/Sabaki/issues/940  
+  - Local Stand-Alone Branch Name: feature/940_SupportGameTreeOptions
+  - Open PR Into Parent il8n Repository: https://github.com/SabakiHQ/sabaki-i18n/pull/39
+  
+- **New Feature: Allow Users to Edit Territory Areas in Estimation/Scoring  Mode**
+  - Summary: When in score estimation mode, allows users to edit the computer estimation, and draw their own territory areas.
+  - Parent Repository Github Tracking Issue: https://github.com/SabakiHQ/Sabaki/issues/939
+  - Local Stand-Alone Branch Name: feature/drawTerritoryMap
+  - Open PR Into Parent Repository: https://github.com/SabakiHQ/Sabaki/pull/941
+
+Original Repository README below
+
 # ![Sabaki: An elegant Go/Baduk/Weiqi board and SGF editor for a more civilized age.](./banner.png)
 
 [![Download the latest release](https://img.shields.io/github/downloads/SabakiHQ/Sabaki/latest/total?label=download)](https://github.com/SabakiHQ/Sabaki/releases)
