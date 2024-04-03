@@ -20,6 +20,11 @@ This fork contains several new features that the parent Sabaki repository have n
   - Local Stand-Alone Branch Name: feature/drawTerritoryMap
   - Open PR Into Parent Repository: https://github.com/SabakiHQ/Sabaki/pull/941
 
+- **New Feature: New Theme for Sabaki**
+  - Relevant Repository: https://github.com/RobertChrist/Sabaki-Subtle-Theme
+  - Local Stand-Alone Branch Name: feature/add-subtle-theme
+  - Open PR Into Parent Repository: https://github.com/SabakiHQ/Sabaki/pull/955
+
 Original Repository README below
 
 # ![Sabaki: An elegant Go/Baduk/Weiqi board and SGF editor for a more civilized age.](./banner.png)
